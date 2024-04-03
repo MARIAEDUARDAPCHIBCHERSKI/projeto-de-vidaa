@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap')
-:root{
+;root{
     --cor-de-fundo:#1E1E1E;
     --verde:#6FFF57;
     --branco:#FFFFFF;--texto-fundo:
@@ -15,7 +15,6 @@ body{
     font-family: "Chakra Petch", sans-serif;
 }
 
-
 .conteudo-principal{
     display: flex;
     flex-direction: column;
@@ -26,8 +25,25 @@ body{
     margin: 0 auto;
 
 }
+
 .titulo-principal{
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
+
+.titulo-principal span{
+ color:var(--verde);   
+}
+ .botao{
+    font-family: "Crakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    
+ }
